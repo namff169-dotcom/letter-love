@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Envelope App — Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="stage">
+    <div class="phone">
+      <!-- Notch -->
+      <div class="notch"></div>
+
+      <!-- Pages (SPA-style) -->
+      <main class="screen">
+        <!-- (Login moved to login.html) -->
+
+        <!-- Page 2: Envelope animation -->
+        <section id="page-envelope" class="page">
+          <div class="envelope-wrap">
+            <div id="envelope" class="envelope closed" title="Nhấp để mở phong bì">
+              <div class="flap"></div>
+              <div class="body"></div>
+            </div>
+            <div id="letter" class="letter hidden">
+              <div class="letter-inner">
+                <p id="typed-text" class="typed"></p>
+                <button id="next-from-envelope" class="btn hidden">Tiếp theo</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Page 3: Photo capture / upload -->
+        <section id="page-camera" class="page">
+          <h3 class="title">Chụp hoặc tải ảnh lên</h3>
+          <div class="camera-wrap">
+            <video id="video" autoplay playsinline></video>
+            <div class="controls">
+              <button id="capture-btn" class="btn">Chụp</button>
+              <label class="btn file-btn">Tải lên
+                <input id="file-input" type="file" accept="image/*" multiple />
+              </label>
+            </div>
+            <div class="counter">Ảnh: <span id="photo-count">0</span>/6</div>
+            <div id="thumbs" class="thumbs"></div>
+            <div class="camera-actions">
+              <button id="finish-btn" class="btn" disabled>Hoàn tất</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Page 4: Flip cards -->
+        <section id="page-flip" class="page">
+          <h3 class="title">Lật thẻ</h3>
+          <p id="flip-info" class="muted"></p>
+          <div id="cards" class="cards"></div>
+          <div class="flip-footer">
+            <button id="back-to-camera" class="btn btn-secondary">Quay lại chụp</button>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

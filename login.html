@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Đăng nhập — Envelope Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="stage">
+    <div class="phone">
+      <div class="notch"></div>
+      <main class="screen">
+        <section class="page active">
+          <h2 class="title">ĐĂNG NHẬP</h2>
+          <div class="login-card keypad-card">
+            <div class="pin-display" id="pin-display" aria-hidden="true"></div>
+            <div class="keypad" aria-hidden="false">
+              <button class="key">1</button>
+              <button class="key">2</button>
+              <button class="key">3</button>
+              <button class="key">4</button>
+              <button class="key">5</button>
+              <button class="key">6</button>
+              <button class="key">7</button>
+              <button class="key">8</button>
+              <button class="key">9</button>
+              <button class="key key-action">C</button>
+              <button class="key">0</button>
+              <button class="key key-action">←</button>
+            </div>
+            <p class="hint">Nhập mật khẩu để vào trái tim</p>
+            <p id="login-error" class="error" aria-live="polite"></p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

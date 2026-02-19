@@ -43,12 +43,21 @@ html,body { height:100%; margin:0; font-family: Inter, system-ui, -apple-system,
 .envelope.closed .flap { transform:rotateX(0deg); }
 .envelope.open .flap { transform:rotateX(-180deg); }
 
-.letter { width:200px; height:220px; background:#fff; border-radius:8px; box-shadow:0 8px 20px rgba(0,0,0,0.12); display:flex; align-items:center; justify-content:center; position:absolute; bottom:60px; z-index:50; }
+.letter { width:200px; height:320px; background:#fff; border-radius:8px; box-shadow:0 8px 20px rgba(0,0,0,0.12); display:flex; align-items:center; justify-content:center; position:absolute; bottom:60px; z-index:50; }
 .letter.hidden { opacity:0; transform:translateY(12px) scale(0.98); transition:all 420ms ease; pointer-events:none; }
 .letter.show { opacity:1; transform:translateY(0) scale(1); pointer-events:auto; }
 .letter.pull { animation: pullOut 520ms cubic-bezier(.2,.8,.2,1) forwards; }
-.letter-inner { padding:16px; overflow:hidden; display:flex; flex-direction:column; align-items:center; gap:12px; }
-.typed { min-height:120px; color:var(--text-dark); font-size:14px; line-height:1.4; }
+.letter-inner { padding:18px; overflow:hidden; display:flex; flex-direction:column; align-items:stretch; gap:10px; position:relative; height:100%; box-sizing:border-box; }
+.typed { color:var(--text-dark); font-size:14px; line-height:1.4; word-wrap:break-word; word-break:break-word; overflow-wrap:break-word; white-space:normal; display:block; max-height: calc(100% - 80px); overflow-y:auto; scroll-behavior:smooth; }
+/* Hide native scrollbars for a cleaner look but allow programmatic scroll (auto-scroll via JS) */
+.typed::-webkit-scrollbar { width: 0px; height:0px; }
+.typed { -ms-overflow-style: none; scrollbar-width: none; }
+/* helper: hide elements (used by JS) */
+.hidden { display:none !important; }
+
+/* keep the next button fixed to the bottom of the letter */
+.letter-inner { position:relative; padding-bottom:56px; }
+.letter-inner .btn { position:absolute; left:50%; transform:translateX(-50%); bottom:12px; margin:0; }
 /* center the next button inside the letter */
 .letter-inner .btn { margin: 6px auto 0 auto; }
 
@@ -99,12 +108,26 @@ video { display:block; width:100%; max-height:220px; border-radius:12px; backgro
 
 /* when a card is flipped, lift it visually so it stands out */
 .card { transition: transform 300ms cubic-bezier(.2,.9,.3,1), box-shadow 220ms; }
-.card.flipped { transform: translateY(-16px); z-index:12; box-shadow:0 14px 30px rgba(0,0,0,0.18); }
+.card.flipped { transform: translateY(-22px) scale(1.03); z-index:16; box-shadow:0 20px 40px rgba(0,0,0,0.22); }
+
+/* larger card height for nicer look */
+.card { height:180px; }
 
 @keyframes pullOut {
   0% { transform: translateY(12px) scale(0.98); opacity:0; }
   60% { transform: translateY(-40px) scale(1.02); opacity:1; }
   100% { transform: translateY(-8px) scale(1); opacity:1; }
+}
+
+/* hearts falling animation */
+#hearts-root { position: absolute; inset:0; pointer-events:none; overflow:hidden; z-index:1200; }
+.heart { position:absolute; width:20px; height:20px; background:transparent; transform-origin:center; animation: heartFall 5s linear forwards; }
+.heart::before { content:'❤'; display:block; font-size:16px; transform:translateY(0); color: rgba(255,92,138,0.95); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.12)); }
+
+@keyframes heartFall {
+  0% { transform: translateY(-8vh) rotate(0deg); opacity:1; }
+  70% { opacity:0.95; }
+  100% { transform: translateY(110vh) rotate(180deg); opacity:0; }
 }
 
 .muted { color:#666; font-size:13px; }
@@ -113,3 +136,7 @@ video { display:block; width:100%; max-height:220px; border-radius:12px; backgro
 
 /* small responsive */
 @media (max-width:420px) { .phone { transform:scale(0.95); } }
+@media (max-width:480px) { /* remove frame borders on phone to use full viewport */
+  .phone { border:none !important; box-shadow:none !important; width:100%; height:100vh; border-radius:0; }
+  .stage { padding:0; }
+}

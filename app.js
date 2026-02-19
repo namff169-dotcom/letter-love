@@ -59,7 +59,9 @@
         letter.removeEventListener('animationend', onEnd);
         // ensure left is final (recompute in case sizes changed)
         try{ const leftPx = Math.max(0, (env.clientWidth - letter.offsetWidth) / 2); letter.style.left = leftPx + 'px'; }catch(e){}
-        startTyping("Dear Ebe,Cảm ơn ebe rất nhiều! Vì đã làm cho ngày sinh nhật của anh trở nên đặc biệt hơn bao giờ hết. Những lời chúc, sự quan tâm và tình cảm của em dành cho anh khiến anh cảm thấy thật may mắn vô cùng vì luôn có em ở bên cạnh. Anh luôn trân trọng từng khảnh khắc mà ebe mang đến, từ những điều nhỏ nhất đến những điều ebe đã âm thầm chuẩn bị vì anh. Nhờ có ebe mà ngày hôm nay không chỉ là sinh nhật, mà còn là một ngày kỷ niệm đẹp, ấm áp và đầy yêu thương. Cảm ơn ebe vì đã xuất hiện trong cuộc đời anh. Anh mong rằng từ đây cho tới 1000 tuổi, lúc nào anh cũng được đón sinh nhật cùng ebe. Anh yêu ebe nhiều vô cùng. Và ebe nè, nhớ hứa với anh là mỗi năm đều chuẩn bị quà sinh nhật cho anh nha, tới năm 1000 tuổi luôn đó, không được quên đâu nhaaaa. Cảm ơn ebe vì tất cả ạ Ebe ơi, abe muốn gửi tới ebe một lời xin lỗi chân thành đến em. Nhiều lúc abe hành xử không đúng thật, làm ebe buồn, làm ebe nản, nhưng abe cũng rất cố gắng và xin lỗi chân thành đến ebe ạ. Anh biết là anh làm ebe buồn gì đó sẽ khiến ebe khó quên được và sẽ khắc mãi trong lòng ạ, bản thân anh cũng không muốn như vậy đâu ạ, cũng có rất nhiều lời hứa được nói ra từ anh rồi, nhưng mà chính bản thân anh cũng biết là anh không giữ được lời hứa đó, anh thay đổi đó nhưng sau một thời gian đâu rồi cũng vào đó ạ. Những điều đó khiến ebe mất niềm tin mà còn làm tổn thương tình cảm quý giá của anh và ebe nữa. Anh rất tự trách bản thân mình ạ, anh đã biết ebe suy nghĩ nhiều nhưng vì sự vô tâm anh lại quên đi mất điều đó. Nhưng có một điều anh luôn chắc chắn rằng, đó chính là anh yêu em, nhiều hơn ebe nghĩ ạ. Ebe ơi, đừng giận anh nữa nha, anh sẽ như những ngày đầu mình mới yêu, có lại sự kiên nhẫn để chịu lắng nghe những lời ebe nói, đủ sự quan tâm để em có cảm giác luôn an toàn. Bởi vì em chính là điều đẹp nhất trong cuộc đời anh. Anh có những đêm ngồi một mình, lặng lẽ vậy đó, nhiều lúc ngồi đó tự khóc, cũng chẳng biết than thở với ai. Anh giấu đi những mệt mỏi, những tổn thương, chỉ để ebe thấy anh luôn điềm tĩnh và mạnh mẽ. Nhưng ngay cả em, người mà anh từng nghĩ em sẽ hiểu, sẽ đồng cảm cũng không bao giờ cảm nhận được những gì anh chịu đựng. Trong mắt mọi người, anh là kẻ xấu, vô duyên, là một người đáng trách. Và ngày trong mắt em, anh thấy anh cũng không ngoại lệ. Thế nhưng ebe đâu biết rằng, những cái ebe cho anh là sai, là xấu, là đáng trách lại là cả một trái tim yêu em theo cách vụng về nhất. Anh mệt mỏi, nhưng anh vẫn không thể ngừng thường, nhiều lúc anh cũng có bày tỏ với em, nhưng có lẽ em nghĩ anh kiếm cớ để mình cãi nhau, nhiều lần như vậy khiến anh không còn tự tin vào chính bản thân mình nữa, nên anh không kể lể về những uất ức và không cam lòng của anh cho em nghe nữa, anh thấy anh nên im lặng là cách tốt nhất. Ebe biết không, đôi lúc mình nên nhìn nhận lại sự việc, để mình nhìn vào đó và xem thử câu chuyện đó mình như thế nào, sẽ có nhưng lúc abe sai và cũng sẽ có nhưng lúc ebe sai, nhưng điều đó không chứng tỏ là cả hai đều sai hoàn toàn, mà cái sai nhất là mình không nhìn nhận lại, để nói ra lời xin lỗi và dỗ dành đối phương. Người yêu mình mà, một câu xin lỗi, một chút dỗ dành cũng không khiến mình chết đi, một chút quan tâm, một chút yêu thương nó không xấu mà nó làm cho tình yêu của mình trở nên gắn kết hơn. Nhưng mà sau những lời nói trên, abe muốn nói với ebe điều này, một lời nói từ tận trong lòng anh: Anh không hứa sẽ cho em cả thế giới, nhưng anh hứa anh sẽ dành cả thế giới của mình để yêu thương em. Vậy nên anh sẽ luôn là người nắm tay em, cho dù ngày đó là ngày nắng hay ngày mưa, là ngày vui hay ngày buồn, khi ebe cảm thấy mệt mỏi anh sẽ ôm ebe thật lâu để ebe biết rằng, vẫn sẽ luôn có một nơi để em trở về, hay tin rằng tình yêu của anh không phải nhưng lời nói suôn mà đó là những lời nhỏ bé nhất anh muốn dành cho em mỗi ngày. Cho dù thế giới này có thay đổi như thế nào, thì anh luôn hứa tình yêu anh dành cho em sẽ luôn vẹn nguyên như những ngày đầu. Yêu ebeee của anh nhiều nhắm ạ Anh viết lá thư này, muốn nói ra những cảm nhận của anh và để ebe hiểu anh hơn, anh không trách móc ebe, anh muốn gửi lời cảm ơn đến ebe và lời xin lỗi chân thành gửi tới ebe ạ. Yêu ebe iuuu của anh nhiều nhắm ạ. Trần Văn Sơn Nam (Abe)");
+        startTyping("Dear my True love, người anh thương! Chúc mừng sinh nhật ebe iuuu nhé, đây là năm thứ 2 anh ở cạnh bé cùng nhau đón sinh nhật tuổi 21 của ebe iuuu nà, abe vui lắm ạ, Chúc ebe tuổi mới, đón sinh nhật dịu dàng luôn tươi cười như chính ánh mắt của bé và nụ cười của bé. Anh không giỏi lời hoa mỹ, nhưng anh luôn mong muốn bé luôn hạnh phúc không chỉ ngày hôm nay mà còn những ngày sau nữa. Và anh biết cuộc sống cũng chả dễ dàng gì, đặc biệt là ebe iuuu của anh. Nhưng ebe cố lên nhé, cố gắng tiếp tục ước mơ, sở thích, vươn tới những mục tiêu lớn lao và luôn cảm thấy hạnh phúc với những gì mình có, abe sẽ luôn ở bên ebe iuuu, hỗ trợ và yêu thương em không chỉ trong nhưng ngày vui mà còn trong những lúc khó khăn, để chúng ta cùng nhau vượt qua tất cả hôm nay là ngày đặc biệt abe chỉ mong ebe cảm nhận được tình yêu anh dành cho em không chỉ trong nhưng lời nói mà còn trong từng hành động. Ebe biết không, anh muốn mỗi ngày có em, mỗi giờ có em, mỗi phút có em và mỗi giây đều có em. Anh muốn được mãi gọi em là ebe iuuu, anh không muốn mất bé vì anh thương bé rất nhiều, thương đến nỗi muốn cùng em đi qua 4 mùa, muốn em sẽ là người năm cạnh bên sau này, muốn thấy được dáng vẻ hạnh phúc của em, muốn được ở bên ebe lâu thật lâu. Anh biết, anh còn những thiếu sót, những vụn về trong cách cử sử với bé. Nhưng ebe thấy, anh cũng đã cố gắng để thay đổi và cố gắng rất nhiều để hiểu ebe hơn, anh chỉ muốn được cạnh bé và chăm sóc cho bé và anh luôn sẳn sàng để đến bên cạnh ebe để bù đắp cho bé những gì bé xứng đáng có được. Vì Tình cảm của anh dành cho bé anh chưa từng đùa giởn, anh luôn là thật lòng, mong ebe nhẹ nhàng nhắc nhở và đưa ra lời khuyên để giúp anh sửa lỗi. Đơn giản vì anh muốn được ở cạnh ebe, che chở ebe và yêu thương ebe trọn vẹn từng ngày. Anh yêu bé 💗💗💗");
+        // start ambient effects and music on first user gesture
+        try{ startHearts(); startBgm(); }catch(e){}
       };
       letter.addEventListener('animationend', onEnd);
     }, 650);
@@ -68,10 +70,20 @@
   function startTyping(text){
     typedEl.textContent = '';
     nextBtn.classList.add('hidden');
-    let i=0; const speed=28;
+    // ensure the typed container starts scrolled to top
+    try{ typedEl.scrollTop = 0; }catch(e){}
+    let i=0; const speed=48;
     const t = setInterval(()=>{
-      typedEl.textContent += text[i++] || '';
-      if(i>text.length){ clearInterval(t); nextBtn.classList.remove('hidden'); }
+      if(i < text.length){
+  typedEl.textContent += text[i++];
+  // auto-scroll to keep the newest text visible (use smooth scrolling)
+  try{ if(typeof typedEl.scrollTo === 'function') typedEl.scrollTo({ top: typedEl.scrollHeight, behavior: 'smooth' }); else typedEl.scrollTop = typedEl.scrollHeight; }catch(e){}
+        return;
+      }
+      // finished typing
+      clearInterval(t);
+  try{ if(typeof typedEl.scrollTo === 'function') typedEl.scrollTo({ top: typedEl.scrollHeight, behavior: 'smooth' }); else typedEl.scrollTop = typedEl.scrollHeight; }catch(e){}
+      nextBtn.classList.remove('hidden');
     }, speed);
   }
 
@@ -147,6 +159,9 @@
   const cardsWrap = document.getElementById('cards');
   const flipInfo = document.getElementById('flip-info');
   const backToCamera = document.getElementById('back-to-camera');
+  const heartsRoot = document.getElementById('hearts-root');
+  let heartsInterval = null;
+  let bgmState = { started: false, intervalId: null, audioCtx: null };
   const logoutBtn = null; // removed — login is separate
 
   backToCamera.addEventListener('click', ()=>{
@@ -159,6 +174,45 @@
     initCamera();
   });
 
+  // Start falling hearts (mưa trái tim)
+  function startHearts(){
+    if(!heartsRoot) return;
+    if(heartsInterval) return;
+    heartsInterval = setInterval(()=>{
+      const h = document.createElement('div');
+      h.className = 'heart';
+      const size = 12 + Math.round(Math.random()*20);
+      h.style.width = size + 'px'; h.style.height = size + 'px';
+      h.style.left = (Math.random()*90) + '%';
+      h.style.opacity = (0.6 + Math.random()*0.4).toString();
+      heartsRoot.appendChild(h);
+      h.addEventListener('animationend', ()=>{ h.remove(); });
+    }, 700);
+  }
+
+  // Simple background music using WebAudio (starts on first user gesture)
+  function startBgm(){
+    if(bgmState.started) return; bgmState.started = true;
+    try{
+      const AudioContext = window.AudioContext || window.webkitAudioContext;
+      const ctx = new AudioContext(); bgmState.audioCtx = ctx;
+      const master = ctx.createGain(); master.gain.value = 0.04; master.connect(ctx.destination);
+      const playChord = ()=>{
+        const now = ctx.currentTime;
+        const freqs = [261.63, 329.63, 392.00]; // C major
+        freqs.forEach((f, i)=>{
+          const o = ctx.createOscillator(); const g = ctx.createGain();
+          o.type = 'sine'; o.frequency.value = f * (i===1?1.0: (i===2?0.5:1));
+          g.gain.value = 0.0001; g.gain.linearRampToValueAtTime(0.06, now+0.02); g.gain.exponentialRampToValueAtTime(0.0001, now+1.6);
+          o.connect(g); g.connect(master);
+          o.start(now); o.stop(now+1.6);
+        });
+      };
+      playChord();
+      bgmState.intervalId = setInterval(playChord, 1800);
+    }catch(e){ console.warn('BGM not available', e); }
+  }
+
   // login/logout is handled by login.html; back-to-camera button remains below as footer
 
   function renderFlipPage(){
@@ -169,59 +223,86 @@
     } else {
       flipInfo.textContent = `Ebe được phép lật ${allowed} thẻ.`;
     }
-    // Always render 3 cards visually, but only 'allowed' number are flippable
-    for(let i=0;i<3;i++){
+  // Always render 3 cards visually.
+  // If the user has uploaded exactly 4 photos, enter "cake mode":
+  // when a card is flipped it will reveal the cake icon (but we still show 3 cards).
+  // Also treat the 5-photo case similarly: when 5 photos are present, flipping any card should reveal the cake only.
+  const numCards = 3;
+  const specialCakeMode = (state.photos.length === 4 || state.photos.length === 5);
+  const icons = ['💐','🎂','💄'];
+
+  for(let i=0;i<numCards;i++){
       const cardWrap = document.createElement('div'); cardWrap.style.display='flex'; cardWrap.style.flexDirection='column'; cardWrap.style.alignItems='center';
       const card = document.createElement('div'); card.className='card';
       const inner = document.createElement('div'); inner.className='card-inner';
       const front = document.createElement('div'); front.className='card-face card-front'; front.textContent = '??';
       const back = document.createElement('div'); back.className='card-face card-back';
 
-      // prefer assigned image, else fallback to photo index
-      const assigned = state.cardAssignment[i];
-      // show emoji icons on the back instead of photos
-      const icons = ['💐','🎂','💄'];
       const span = document.createElement('div'); span.className = 'card-emoji'; span.textContent = icons[i] || '🎁'; span.style.fontSize='34px'; back.appendChild(span);
 
       inner.appendChild(front); inner.appendChild(back); card.appendChild(inner);
 
-      // conditional flipping behaviour:
-      // - if allowed === 3 -> any card can flip
-      // - if allowed === 1 -> user may flip any single card (only one flipped at a time)
       ((idx)=>{
         card.addEventListener('click', ()=>{
               const currentlyFlipped = cardsWrap.querySelectorAll('.card.flipped').length;
+              // If in full-flip mode (allowed === 3) allow toggling both ways.
               if(allowed === 3){
-                // allow toggle both ways
+                // In special cake mode, when a card is flipped to show its back,
+                // ensure the back displays the cake icon for that card (auto-reveal cake on flip).
+                if(specialCakeMode && !card.classList.contains('flipped')){
+                  // set the back content to cake before flipping
+                  const backFace = card.querySelector('.card-back');
+                  if(backFace){ backFace.textContent = ''; const cake = document.createElement('div'); cake.className='card-emoji'; cake.textContent='🎂'; cake.style.fontSize='34px'; backFace.appendChild(cake); }
+                }
                 card.classList.toggle('flipped');
+                checkAllFlipped();
                 return;
               }
+              // Single-flip mode: allow one permanent flip
               if(allowed === 1){
-                // allow flipping any one card, but once flipped it becomes permanent and other cards locked
-                if(card.classList.contains('flipped')){
-                  // already flipped - do nothing (one-way)
-                  return;
-                }
-                // not flipped yet
+                if(card.classList.contains('flipped')){ return; }
                 if(currentlyFlipped === 0){
-                  card.classList.add('flipped');
-                  // mark as opened permanent
-                  card.dataset.opened = '1';
-                  // lock all other cards
+                  if(specialCakeMode){
+                    const backFace = card.querySelector('.card-back');
+                    if(backFace){ backFace.textContent = ''; const cake = document.createElement('div'); cake.className='card-emoji'; cake.textContent='🎂'; cake.style.fontSize='34px'; backFace.appendChild(cake); }
+                  }
+                  card.classList.add('flipped'); card.dataset.opened='1';
                   Array.from(cardsWrap.querySelectorAll('.card')).forEach((c,ci)=>{ if(ci !== idx) { c.classList.add('locked'); } });
+                  checkAllFlipped();
                 } else {
                   card.classList.add('locked'); setTimeout(()=>card.classList.remove('locked'), 300);
                 }
                 return;
               }
-          // default: no flips allowed
-          card.classList.add('locked'); setTimeout(()=>card.classList.remove('locked'), 300);
+              // default: no flips allowed
+              card.classList.add('locked'); setTimeout(()=>card.classList.remove('locked'), 300);
         });
       })(i);
 
       cardWrap.appendChild(card);
-      // thumbnails under cards removed per UI request
       cardsWrap.appendChild(cardWrap);
+    }
+    // after initial render, check if auto-flipped made all flipped
+    setTimeout(checkAllFlipped, 40);
+  }
+
+  function checkAllFlipped(){
+    const cards = cardsWrap.querySelectorAll('.card');
+    if(!cards || cards.length===0) return;
+    const flipped = cardsWrap.querySelectorAll('.card.flipped').length;
+    const total = cards.length;
+    const footer = document.querySelector('.flip-footer');
+    if(flipped >= total){
+      // all flipped -> show message and hide back button
+      flipInfo.textContent = 'Vui lòng liên hệ Abe để được nhận thẻ';
+      if(backToCamera) backToCamera.style.display = 'none';
+      if(footer && !footer.querySelector('.flip-done-msg')){
+        const m = document.createElement('div'); m.className = 'flip-done-msg muted'; m.style.textAlign='center'; m.style.padding='10px 0'; m.textContent = 'Vui lòng liên hệ Abe để được nhận thẻ'; footer.appendChild(m);
+      }
+    } else {
+      // not all flipped -> ensure back button visible and remove done message
+      if(backToCamera) backToCamera.style.display = '';
+      if(footer){ const m = footer.querySelector('.flip-done-msg'); if(m) m.remove(); }
     }
   }
 

@@ -130,6 +130,20 @@ video { display:block; width:100%; max-height:220px; border-radius:12px; backgro
   100% { transform: translateY(110vh) rotate(180deg); opacity:0; }
 }
 
+/* Login success overlay and rise hearts */
+.login-success { position:absolute; inset:0; pointer-events:none; z-index:3000; }
+.login-success .heart { position:absolute; animation: heartRise 1000ms cubic-bezier(.2,.9,.3,1) forwards; }
+@keyframes heartRise {
+  0% { transform: translateY(30px) scale(0.7); opacity:1; }
+  60% { opacity:0.9; }
+  100% { transform: translateY(-80px) scale(1.05); opacity:0; }
+}
+
+/* Smooth fade used when logging in */
+.screen.fade-out { transition: opacity 600ms ease, transform 600ms ease; opacity:0; transform: translateY(-8px) scale(0.98); }
+/* also support fading the phone container (used by login script) */
+.phone.fade-out { transition: opacity 700ms ease, transform 700ms ease; opacity:0; transform: translateY(-8px) scale(0.98); }
+
 .muted { color:#666; font-size:13px; }
 
 #flip-info { text-align:center; margin:6px 0 8px; font-size:14px; color:#666; }

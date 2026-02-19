@@ -7,6 +7,13 @@
   <script>
     // If user is not authenticated, redirect immediately to the login page
     try{ if(!localStorage.getItem('authed')){ window.location.href = 'login.html'; } }catch(e){}
+    // Nếu chưa auth, chuyển ngay sang trang login khi mở index.html
+    try {
+      if(!localStorage.getItem('authed')){
+        // chỉ redirect khi đang ở trang index (không redirect vòng lặp)
+        if(!/login.html$/.test(location.pathname)) location.replace('login.html');
+      }
+    } catch(e){}
   </script>
   <link rel="stylesheet" href="styles.css">
 </head>

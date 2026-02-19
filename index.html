@@ -4,6 +4,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Main-letter-love</title>
+  <script>
+    // If user is not authenticated, redirect immediately to the login page
+    try{ if(!localStorage.getItem('authed')){ window.location.href = 'login.html'; } }catch(e){}
+  </script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
